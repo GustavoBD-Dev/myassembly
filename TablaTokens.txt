@@ -1,0 +1,14 @@
+	Nombre 	Tipo 		Tamaño 		Valor
+	. 	Directiva 	64kb 		00000000
+
+	mov 	Instruccion 	1bytes 		00000001
+
+	model 	Directiva 	1 byte 		00000010
+
+	stack 	Directiva 	2bytes 		00000100
+
+	data 	Directiva 	4bytes 		 00001000
+
+	code 	Directiva 	4bytes 		 11000000
+
+	Directiva    	4bytes    	10011101        
